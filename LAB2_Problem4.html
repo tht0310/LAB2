@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Form</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form name="myForm" method="get" action="" />
+			<table border="1" cellpadding="5">
+				<tr>
+					<td><b>Last Name</b></td>
+					<td><input type="text" value="" placeholder="Nakov" style="width: 300px;"></td>
+				</tr>
+				<tr>
+					<td><b>First Name</b></td>
+					<td><input type="text" value="" placeholder="Svetin" style="width: 300px;"></td>
+				</tr>
+				<tr>
+					<td><b>Address</b></td>
+					<td><textarea style="width: 300px;" placeholder="17 Hristo Botev"></textarea></td>
+				</tr>
+				<tr>
+					<td><b>City</b></td>
+					<td>
+						<table border="1">
+							<td><input type="text" value="" placeholder="New York" ></td>
+							<td><label><b>State</b></label></td>
+							<td><input type="text" value="" style="width: 70px;"></td>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td><b>Zip/Postal Code</b></td>
+					<td><input type="text" value="" style="width: 70px;" placeholder="9305" ></td>
+				</tr>
+				<tr>
+					<td><b>Country</b></td>
+					<td> 
+						<select name="Country" style="width: 200px;">
+						<option value="USA" selected="selected">USA</option>
+						<option value="Vietnam" >Vietnam</option>
+						<option value="South Korea">South Korea</option>
+			   			</select>
+			   		</td>
+				</tr>
+				<tr>
+					<td><b>Phone (country code, area code, number)</b></td>
+					<td>
+						(+<input type="text" value="" style="width: 50px;" placeholder="359" >
+						)<input type="text" value="" style="width: 50px;" placeholder="88" >
+						-<input type="text" value=""style="width: 130px;" placeholder="8334343" >
+					</td>
+				</tr>
+				<tr>
+					<td><b>E-mail</b></td>
+					<td><input type="email" value="" placeholder="nalov@kaspichan.org" ></td>
+				</tr>
+				<tr>
+					<td><b>Birth date</b></td>
+					<td>
+						Month <input type="text" value="" style="width: 20px;" placeholder="06" >
+						Day <input type="text" value="" style="width: 20px;" placeholder="14" >
+						Year (4 digit) <input type="text" value="" style="width: 40px;" placeholder="1980" >
+					</td>
+				</tr>
+				<tr>
+					<td><b>Gender</b></td>
+					<td>
+						<select name="Gender" style="width: 100px;">
+						<option value="Male" selected="selected">Male</option>
+						<option value="Female" >Female</option>
+					</td>
+				</tr>
+				<tr>
+					<td><b>Starting date</b></td>
+					<td>
+						<input type="radio" name="date" value="Spring 2006"/>Spring 2006
+						<input type="radio" name="date" value="Summer 2006"/>Summer 2006
+					</td>
+				</tr>
+				<tr>
+					<td><b>Comments/Questions</b></td>
+					<td><textarea style="width: 300px;" placeholder="Please send me information about the lodging" ></textarea></td>
+				</tr>
+				<tr style="background: lightblue;">
+					<td colspan="2">
+						<input type="reset" value="Clear this form">
+						<input type="submit" value="Submit">	
+					</td>					
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
